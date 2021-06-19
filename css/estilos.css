@@ -3,33 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+  #encabezado {
+      width: 100%;
+      height: 250px;
+      background-color: cadetblue;
+  }
 
-#encabezado {
-    height: 100px;
-    background: #22c1c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#encabezado h1 {
+  #encabezado h1{
+    display: flex;
     margin:0px;
-    text-align: center;
-    color: white;
-    font-size: 55px;
-}
-
-#navegacion {
-    height: 60px;
-    background: #22c1c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-size: 20px;
-}
-
-#navegacion a {
-    margin:0px;
-    color:white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 15px 18px;
+    color: rgb(221, 154, 30);
+    font-size: 40px;
+    height: 20px;
 }
